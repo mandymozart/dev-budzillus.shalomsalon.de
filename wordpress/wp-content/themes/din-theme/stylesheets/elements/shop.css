@@ -24,3 +24,9 @@
 .media:hover {
     -webkit-transform: perspective(150px) translateZ(1px) rotate3d(1, 1, 1, 1.5deg);
     transform: perspective(150px) translateZ(1px) rotate3d(1, 1, 1, 1.5deg); }
+
+/* Fixing Bootstrap autoflow nested cells and iframe bug (additional 5px after iframe) */
+.product-content {
+    height: 300px;
+    overflow: hidden;
+}
