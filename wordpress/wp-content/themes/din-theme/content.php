@@ -50,9 +50,9 @@
     if ( is_single() ) :
     ?>
     <div class="entry-social">
-        <h3><? echo _e('Teile dich mit!','din-theme'); ?></h3>
-        <a href="http://www.facebook.com/sharer/sharer.php?u=<? echo get_permalink(the_ID()); ?>" target="_blank"><span class="fa fa-2x fa-facebook-square"></span></a>
-        <a href="http://twitter.com/share" target="_blank"><span class="fa fa-twitter-square fa-2x "></span></a>
+        <h3><? echo _e('Teile dich mit und sei sozial!','din-theme'); ?></h3>
+        <a href="http://www.facebook.com/sharer/sharer.php?u=<? echo get_permalink(the_ID()); ?>" target="_blank"><span class="social social-facebook"></span></a>
+        <a href="http://twitter.com/share" target="_blank"><span class="social social-twitter "></span></a>
     </div>
     <?
     endif;
