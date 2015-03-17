@@ -1,0 +1,20 @@
+/*custom forms page CSS - SB-EDIT*/
+.page {
+    margin-bottom: 0;
+}
+
+/*custom forms page CSS - END - SB-EDIT*/
+
+/* edited by Hardy */
+
+.alignright {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+.alignleft {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }

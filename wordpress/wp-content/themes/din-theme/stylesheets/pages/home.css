@@ -1,0 +1,118 @@
+/* Page Related Style - Home*/
+
+/* Background Images figure out overwrite with VC later */
+#introSection {
+    color: #f6f7e4;
+}
+#introSection h1 {
+    color:#f6f7e4;
+    font-size: 150px;
+}
+#introSection h2 {
+    color:#f6f7e4;
+    font-size: 50px;
+    line-height: 40px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+#latestSection {
+    padding:0;
+    margin:0;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.home #songkickGigs
+{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    font-family: 'macroprint';
+    color: #f6f7e4;
+    line-height: 60px;
+}
+.home #tourSection h2 {
+    color: #921E31;
+}
+.home #songkickGigs a
+{
+    font-family: "Macroprint";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: #9ED993;
+}
+.home #songkickGigs a:hover
+{
+    color:#f6f7e4;
+
+}
+.home #shopSection {
+    overflow-x: hidden;
+    padding-top: 91px;
+}
+
+.sticky-wrapper {
+    position:fixed;
+    top:20px;
+    left:20px;
+    display:none;
+    z-index: 10000;
+}
+
+/* Sprite */
+.sprite {
+    position: absolute;
+}
+.sprite.fixed {
+    position: fixed;
+}
+.sprite.bottom-right {
+    right:0;
+    bottom:0;
+}
+.sprite.bottom-left {
+    left:0;
+    bottom:0;
+}
+.sprite.top-left {
+    left:0;
+    top:0;
+}
+.sprite.top-right {
+    right:0;
+    top:0;
+}
+.sprite.top-center {
+    left:50%;
+    top:0;
+    margin-left: 230px;
+}
+
+#moonSprite {
+    width: 500px;
+}
+
+#bombaman {
+    position: absolute;
+    bottom: 0;
+    width: 460px;
+    left: 50%;
+    margin-left: -230px;
+}
+
+/* Newsletter */
+.in-intro {
+    position: fixed;
+    width: 256px;
+    margin-left: -128px;
+    bottom: 20px;
+    left: 50%;
+}
+
+#contact-area, #booking-area {
+    background-color: #9ED993;
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+

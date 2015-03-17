@@ -1,0 +1,26 @@
+/* Lists */
+ul {
+    list-style: none;
+    padding-left:0;
+}
+
+section ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f178';
+    color: #921E31;
+    list-style: none;
+    padding-right: 0.25em;
+}
+section .widget_recent_entries ul li:before,
+section #secondary ul li:before,
+#blog-aside ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f101';
+    color: #921E31;
+    list-style: none;
+    padding-right: 0.25em;
+}
+a.read-more:before {
+font-family: 'FontAwesome';
+content: '\f00c';
+}

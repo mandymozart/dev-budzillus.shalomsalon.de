@@ -1,0 +1,17 @@
+.social {
+    background: url(/wp-content/themes/din-theme/images/socials-sprites.png);
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin-left: 20px;
+}
+.social.social-facebook { background-position: -72px -72px;}
+.social.social-facebook:hover { background-position: -72px 0;}
+.social.social-tumblr {background-position: -144px -72px;}
+.social.social-tumblr:hover {background-position: -144px 0;}
+.social.social-youtube {background-position: -216px -72px;}
+.social.social-youtube:hover {background-position: -216px 0;}
+.social.social-instagram {background-position: -287px -72px;}
+.social.social-instagram:hover {background-position: -287px 0;}
+.social.social-soundcloud {background-position: 0 -72px;}
+.social.social-soundcloud:hover {background-position: 0 0;}

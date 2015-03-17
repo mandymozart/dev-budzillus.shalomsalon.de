@@ -1,0 +1,88 @@
+/* Layout */
+body {
+    overflow-x: hidden; /* fixing bug in margins on main container */
+    /* background: url('/wp-content/themes/din-theme/images/background-texture.png') no-repeat center center fixed; */
+    background-size:cover;
+    background-color: #f6f7e4;
+}
+#content {
+    margin-top:100px;
+}
+
+/**
+ * Blog
+ */
+#content-area {
+    padding-right: 1.5em;
+}
+
+/* Splash-Screen */
+
+body, div {
+    font-size: 22px;
+}
+
+p {
+    font-size: 30px;
+    line-height: 22px;
+}
+
+h1, .h1 {
+    font-size: 36px;
+}
+h2, .h2 {
+    font-size: 30px;
+}
+h3, .h3 {
+    font-size: 22px;
+}
+h4, .h4 {
+    font-size: 22px;
+}
+h5, .h5 {
+    font-size: 22px;
+}
+h6, .h6 {
+    font-size: 22px;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+.navbar {
+    font-size: 30px;
+}
+
+/*
+.footer {
+    line-height: 22px;
+    padding-top: 20px;
+    position: fixed;
+    background: #f6f7e4;
+    bottom: 0;
+    width: 100%;
+}
+*/
+.footer h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+.footer p,
+.footer div {
+    line-height: 22px;
+    font-size: 22px;
+}
+.footer {
+    padding-top: 30px;
+    padding-bottom: 390px;
+}
+
+.single-post, .error404, .page {
+    background: url('/wp-content/themes/din-theme/images/background-texture.png') no-repeat center center fixed;
+    background-size:cover;
+}
+.single-post h1 {
+    font-size: 40px;
+}

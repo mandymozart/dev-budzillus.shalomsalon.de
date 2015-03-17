@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DIN-theme v1.0-wpcom\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-23 09:20:48+0000\n"
+"Last-Translator: wearepictures <sugabam@shalomsalon.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ din-theme
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Leider konnte die Seite nicht gefunden werden."
+
+#: 404.php:19
+#@ din-theme
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Leider wurde an dieser Stelle nichts gefunden. Haben Sie schon unsere Suche probiert?"
+
+#: 404.php:27
+#@ din-theme
+msgid "Most Used Categories"
+msgstr "Häufigste Kategorien"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+#@ din-theme
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Versuchen Sie im Monatsarchiv zu suchen. %1$s"
+
+#: archive.php:29
+#, php-format
+#@ din-theme
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: archive.php:32
+#, php-format
+#@ din-theme
+msgid "Day: %s"
+msgstr "Tag: %s"
+
+#: archive.php:35
+#, php-format
+#@ din-theme
+msgid "Month: %s"
+msgstr "Monat: %s"
+
+#: archive.php:35
+#@ din-theme
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:38
+#, php-format
+#@ din-theme
+msgid "Year: %s"
+msgstr "Jahr: %s"
+
+#: archive.php:38
+#@ din-theme
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:41
+#@ din-theme
+msgid "Asides"
+msgstr "Asides"
+
+#: archive.php:44
+#@ din-theme
+msgid "Galleries"
+msgstr "Galerien"
+
+#: archive.php:47
+#@ din-theme
+msgid "Images"
+msgstr "Bilder"
+
+#: archive.php:50
+#@ din-theme
+msgid "Videos"
+msgstr "Videos"
+
+#: archive.php:53
+#@ din-theme
+msgid "Quotes"
+msgstr "Zitate"
+
+#: archive.php:56
+#@ din-theme
+msgid "Links"
+msgstr ""
+
+#: archive.php:59
+#@ din-theme
+msgid "Statuses"
+msgstr "Stati"
+
+#: archive.php:62
+#@ din-theme
+msgid "Audios"
+msgstr "Audios"
+
+#: archive.php:65
+#@ din-theme
+msgid "Chats"
+msgstr "Chats"
+
+#: archive.php:68
+#@ din-theme
+msgid "Archives"
+msgstr "Archieve"
+
+#: comments.php:28
+#, php-format
+#@ din-theme
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:35
+#: comments.php:52
+#@ din-theme
+msgid "Comment navigation"
+msgstr "Kommentar Navigation"
+
+#: comments.php:36
+#: comments.php:53
+#@ din-theme
+msgid "&larr; Older Comments"
+msgstr "&larr;  Ältere Kommentare"
+
+#: comments.php:37
+#: comments.php:54
+#@ din-theme
+msgid "Newer Comments &rarr;"
+msgstr "Neuere Kommentare &larr; "
+
+#: comments.php:64
+#@ din-theme
+msgid "Comments are closed."
+msgstr "Keine Kommentare."
+
+#: content-none.php:13
+#@ din-theme
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: content-none.php:19
+#, php-format
+#@ din-theme
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+#@ din-theme
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Leider hat Ihre Suche keine Resultate erzeugt. Versuchen Sie es mit genaueren Suchbegriffen."
+
+#: content-none.php:28
+#@ din-theme
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Leider kein Glück. Suchen könnten Ihnen weiter helfen."
+
+#: content-page.php:18
+#: content-single.php:20
+#: content.php:29
+#@ din-theme
+msgid "Pages:"
+msgstr "Seiten"
+
+#: content-page.php:25
+#: inc/template-tags.php:122
+#@ din-theme
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: content-post.php:38
+#@ din-theme
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#. translators: %s: Name of current post
+#: content.php:22
+#, php-format
+#@ din-theme
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen  %s <span class=\"fa fa-long-arrow-right\">&rarr;</span>"
+
+#: functions.php:45
+#@ din-theme
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:97
+#@ din-theme
+msgid "Sidebar"
+msgstr ""
+
+#: inc/extras.php:63
+#, php-format
+#@ din-theme
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: inc/template-tags.php:21
+#@ din-theme
+msgid "Posts navigation"
+msgstr "Durchstöbern Sie unsere Artikel"
+
+#: inc/template-tags.php:25
+#@ din-theme
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"fa fa-long-arrow-left\"></span> Ältere Einträge"
+
+#: inc/template-tags.php:29
+#@ din-theme
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neuere Artikel <span class=\"fa fa-long-arrow-right\"></span>"
+
+#: inc/template-tags.php:52
+#@ din-theme
+msgid "Post navigation"
+msgstr "Stöbern Sie in unseren Artikeln"
+
+#: inc/template-tags.php:55
+#, php-format
+#@ din-theme
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr "<span class=\"fa fa-long-arrow-left\"></span>&nbsp;%title"
+
+#: inc/template-tags.php:56
+#, php-format
+#@ din-theme
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title&nbsp;<span class=\"fa fa-long-arrow-right\"></span>"
+
+#: inc/template-tags.php:82
+#, php-format
+#@ din-theme
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Verfasst am %s"
+
+#: inc/template-tags.php:87
+#, php-format
+#@ din-theme
+msgctxt "post author"
+msgid "by %s"
+msgstr "von %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:104
+#: inc/template-tags.php:110
+#@ din-theme
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:106
+#, php-format
+#@ din-theme
+msgid "Posted in %1$s"
+msgstr "Gepostet in %1$s"
+
+#: inc/template-tags.php:112
+#, php-format
+#@ din-theme
+msgid "Tagged %1$s"
+msgstr "Getagged als %1$s"
+
+#: inc/template-tags.php:118
+#@ din-theme
+msgid "Leave a comment"
+msgstr "Schreiben Sie uns einen Kommentar"
+
+#: inc/template-tags.php:118
+#@ din-theme
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: inc/template-tags.php:118
+#@ din-theme
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: search.php:18
+#, php-format
+#@ din-theme
+msgid "Search Results for: %s"
+msgstr "Ihre Suchergebnisse für %s"
+
+#: sidebar-blog.php:22
+#@ din-theme
+msgid "Popular Posts"
+msgstr "Gern gelesen"
+
+#: sidebar-blog.php:43
+#@ default
+msgid "Sorry, no posts matched your criteria."
+msgstr "Leider konnten wir keine passenden Artikel für Sie finden."
+
+#: sidebar-blog.php:52
+#@ default
+msgid "Categories"
+msgstr "Kategorien"
+
+#: sidebar-blog.php:63
+#, php-format
+#@ default
+msgid "View all posts in %s"
+msgstr "Alle Artikel in %s ansehen"
+
+#: sidebar-blog.php:71
+#@ default
+msgid "Recent Posts"
+msgstr "Aktuelle Beiträge"
+
+#: sidebar.php:14
+#@ default
+msgid "Related Posts"
+msgstr "Lesen Sie jetzt weitere interessante Artikeln auf unserem Blog"
+
+#: content-post.php:29
+#@ din-theme
+msgid "Posted by"
+msgstr "Verfasst von"
+
+#: sidebar-blog.php:22
+#@ din-theme
+msgid "Popular Posts"
+msgstr "Gern gelesen"
+
+#: content-single.php:36
+#@ din-theme
+msgid "Share this article"
+msgstr "Diesen Artikel weiterempfehlen"
+
+#: content-post.php:39
+#@ din-theme
+msgid "Share"
+msgstr "Weiterempfehlen"

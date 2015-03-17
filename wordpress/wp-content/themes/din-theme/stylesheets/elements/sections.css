@@ -1,0 +1,23 @@
+.divider {
+    height:50px;
+}
+
+section, .section {
+    min-height:500px;
+    padding-top:50px;
+    overflow:auto;
+    position: relative;
+}
+
+.section-inverse{
+
+    background-color: #921E31;
+    color: #f6f7e4;
+
+    margin-left: -15px!important;
+    margin-right: -15px!important;
+}
+
+.section-sidebar {
+    min-height: 100px;
+}

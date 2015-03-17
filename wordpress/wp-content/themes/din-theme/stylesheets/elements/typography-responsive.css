@@ -1,0 +1,24 @@
+/* 4.r. Typography Responsive */
+/* Mobile */
+@media (min-width : 320px) and (max-width : 568px) {
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 1em !important;
+        line-height: 1em !important;
+    }
+    #brand-logotype-footer {
+        max-width: 200px !important;
+    }
+    #brand-img {
+        max-width: 130px !important;
+        margin-right: -15px;
+    }
+    #socials {
+        font-size: 14px;
+    }
+}
+/* Tablet */
+@media (max-width : 991px) {
+    .mobile-header .sub-menu {
+        display:none;
+    }
+}

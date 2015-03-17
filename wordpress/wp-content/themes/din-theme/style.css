@@ -1,0 +1,50 @@
+/*
+Theme Name: DIN-theme
+Theme URI: http://www.wearepictures.com/products/din-theme
+Author: WEAREPICTURES
+Author URI: http://www.wearepictures.com
+Description: A theme for Budzillus build on Bootstrap.
+Version: 1.0-wpcom
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: din-theme
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ din-theme is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+@import "stylesheets/styles.css";
+
+/* Sections Background Images */
+#introSection {
+    background: url('/wp-content/themes/din-theme/images/background-horizon.png') no-repeat center center fixed;
+    background-size:cover;
+}
+#latestSection {
+    background: url('/wp-content/themes/din-theme/images/background-darksky.jpg') no-repeat center center fixed;
+    background-size:cover;
+}
+#tourSection {
+    background: url('/wp-content/themes/din-theme/images/background-darksky.jpg');
+    background-size:cover;
+    overflow-x: hidden;
+}
+#shopSection {
+    background: url('/wp-content/themes/din-theme/images/background-texture.png') no-repeat center center fixed;
+    background-size:cover;
+}
+#primary {
+    background: url('/wp-content/themes/din-theme/images/background-texture.png') no-repeat center center fixed;
+    background-size:cover;
+}
+.footer {
+    background: url('/wp-content/themes/din-theme/images/background-horizon-footer.jpg') no-repeat top center;
+    background-size:cover;
+}

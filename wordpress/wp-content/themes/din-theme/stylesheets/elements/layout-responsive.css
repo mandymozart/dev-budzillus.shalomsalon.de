@@ -1,0 +1,16 @@
+/* Layout Responsive */
+/* Mobile */
+@media (min-width : 320px) and (max-width : 568px) {
+    .footer {
+        position: static;
+    }
+}
+/* Tablet */
+@media (max-width : 991px) {
+    .footer {
+        position: static;
+    }
+    .footer {
+        position: static;
+    }
+}

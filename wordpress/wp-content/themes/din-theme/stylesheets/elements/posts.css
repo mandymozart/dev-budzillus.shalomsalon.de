@@ -1,0 +1,29 @@
+.post {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #921E31;
+}
+.post:last-of-type {
+    border:0;
+}
+.post .entry-header {
+    float: none;
+}
+.post .entry-title {
+    margin-bottom: 8px;
+}
+.post .entry-header img {
+    -webkit-box-shadow: 3px 5px 10px 0px rgba(0,0,0, 0.1);
+    -moz-box-shadow: 3px 5px 10px 0px rgba(0,0,0, 0.1);
+    box-shadow: 3px 5px 10px 0px rgba(0,0,0, 0.1);
+    margin-bottom: 15px;
+}
+.post .entry-meta {
+    display: none;
+    font-size: 30px;
+}
+.post .entry-footer {
+    font-size: 1em;
+}
+.post h1, .post h2, .blog h3 {
+    line-height: 1.25em;
+}

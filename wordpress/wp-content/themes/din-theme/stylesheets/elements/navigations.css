@@ -1,0 +1,156 @@
+/* Navigations
+ * 1. On Site Navigation
+ * 2. Navigation Bar
+ * 3. Footer Navigation
+ * 4. Mobile Menu
+ * 5. Admin Links on Site
+ * 6. Socials
+*/
+
+/* 1. On Site Naviation */
+
+/* 1.1. Nav Onsite */
+#nav-onsite {
+    position: fixed;
+    right: 0;
+    /* min-width: 100%; */
+    bottom: 0;
+    z-index: 1040;
+    margin: 20px;
+}
+
+
+/* 1.2. Toggle Offcanvas */
+
+/* 2. Navigation Bar */
+.navbar {
+    background: transparent;
+    border-bottom: 0;
+
+    padding-left: 15px; /*SB-EDIT*/
+    padding-right: 15px; /*SB-EDIT*/
+}
+.navbar-brand
+{
+    position: absolute !important;
+    width: 100% !important;
+    left: 17px !important;
+    text-align: left !important;
+    margin: auto !important;
+    font-family: "Macroprint";
+    padding: 27px 15px;
+    font-size: 2em;
+}
+.navbar-brand.visible-xs.visible-sm {
+    position: fixed !important;
+    /* width: 100%; */
+    right: 30px !important;
+    text-align: right !important;
+    margin: auto !important;
+    margin-right: 0!important;
+}
+
+.mobile-header .nav {
+    text-align: center;
+    display: inline-block;
+}
+.mobile-header h1,
+.mobile-header h2,
+.mobile-header h3,
+.mobile-header h4 {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .mobile-header {
+        display: none;
+    }
+}
+
+.navbar #mm-toggle {
+    margin-top: 6px;
+}
+.navbar .nav-icon a {
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar .navbar-ui {
+    height: 93px;
+}
+.dropdown-menu {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.dropdown-menu > li > a {
+    color: #921E31;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background: #f6f7e4;
+    color: #ccc;
+}
+.navbar-nav.navbar-right:last-child {
+    margin-right: 5px;
+}
+.current-menu-item {
+    background: transparent;
+    color: #AE3636;
+}
+/* 3. Footer Navigation */
+/*
+.footer .menu a{
+    color: #f6f7e4;
+}
+.footer .menu a:hover,
+.footer .menu  a:focus {
+    color: #fafa96;
+}
+.footer h1, .footer h2, .footer h3 {
+    color: #f6f7e4;
+}
+*/
+.footer .current-menu-item,
+.footer .current-menu-item a {
+    background: transparent;
+}
+
+#footer-nav {
+    margin-top: 0;
+}
+
+/* 5. Admin Links on Site */
+.post-edit-link {
+
+}
+.nav-next {
+    display: inline;
+    float: right;
+}
+.nav-previous {
+    float: left;
+}
+
+
+/* 6. Socials */
+#socials {
+    z-index: 1020;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+#socials ul {
+    display: inline-flex;
+}
+#socials ul li {
+    margin-left: 0px;
+}
+
+/* 7. Categories under Single Article */
+.nav-categories { display: inline-flex;}
+.nav-categories li { margin-right: 10px;}
+.nav-categories li:before { content: '' !important; }
+.nav-categories li a {
+    font-family: "Macroprint";
+    font-size: 30px;
+}

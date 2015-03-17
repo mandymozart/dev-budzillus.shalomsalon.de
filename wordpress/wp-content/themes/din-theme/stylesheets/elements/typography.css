@@ -1,0 +1,122 @@
+/* 4. Typography */
+/* 4.0. Regular Text */
+body {
+ font-size: 2em;
+}
+p, th, td, div {
+    font-family: "mathletebulky";
+    font-weight: normal;
+    font-style: normal;
+    color: #000;
+    font-size: 2.5em;
+    line-height: 1;
+    letter-spacing: 0.1em;
+}
+/* 4.1. Styles */
+/* 4.2. Headings */
+h1,h2 {
+    font-size: 35px;
+    font-family: "Macroprint";
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+h3 {
+    font-family: "MacroPrint";
+    letter-spacing: 0.2em;
+}
+h4,h5,h6 {
+    font-family: "mathletebulky";
+    text-transform: uppercase;
+    line-height: 1.25;
+    letter-spacing: 0.2em;
+    color: #921E31;
+}
+/* 4.3. Links */
+a {
+    color: #921E31;
+}
+a:hover,
+a:focus {
+    color: #AE3636;
+    outline:none;
+    text-decoration: none;
+}
+
+strong,b {
+    font-family: "mathletebulky";
+    font-weight: normal;
+    color: #921E31;
+    letter-spacing: 0.1em;
+}
+*:focus {
+    outline: 0;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    text-decoration: none;
+}
+
+.textbox-action {
+    background-color: #fefa97;
+    padding: 30px;
+    color: #f6f7e4;
+}
+.textbox-action h1,
+.textbox-action h2,
+.textbox-action h3,
+.textbox-action h4,
+.textbox-action h5,
+.textbox-action h6 {
+    text-align: center;
+}
+.textbox-action h1:first-child,
+.textbox-action h2:first-child,
+.textbox-action h3:first-child,
+.textbox-action h4:first-child,
+.textbox-action h5:first-child,
+.textbox-action h6:first-child
+{
+    margin-top: 0;
+}
+
+.textbox-interaction {
+    background-color: #921E31;
+    padding: 30px;
+    color: #f6f7e4;
+}
+.textbox-interaction h1,
+.textbox-interaction h2,
+.textbox-interaction h3,
+.textbox-interaction h4,
+.textbox-interaction h5,
+.textbox-interaction h6 {
+    text-align: center;
+    color: #f6f7e4 !important;
+}
+.textbox-interaction h1:first-child,
+.textbox-interaction h2:first-child,
+.textbox-interaction h3:first-child,
+.textbox-interaction h4:first-child,
+.textbox-interaction h5:first-child,
+.textbox-interaction h6:first-child
+{
+    margin-top: 0;
+}
+
+hr {
+    border-top: 1px solid #921E31;
+}
+
+.date {
+    color: #921E31;
+}
+
+.btn {
+    letter-spacing: 0.1em;
+}

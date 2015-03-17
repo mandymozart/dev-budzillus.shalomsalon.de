@@ -1,0 +1,10 @@
+.modal-body {
+    text-align: center;
+}
+.modal-content {
+    background: url('/wp-content/themes/din-theme/images/background-darksky.jpg') no-repeat center center fixed;
+    background-size:cover;
+}
+.modal-footer {
+    border:0;
+}

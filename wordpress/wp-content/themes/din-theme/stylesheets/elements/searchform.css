@@ -1,0 +1,29 @@
+.search-form {
+    margin-top: 1.5em;
+    opacity: 0.9;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.search-form:hover,
+.search-form:focus{
+    opacity: 1;
+}
+#s {
+    height: 41px;
+    padding-top: 9px;
+    padding-bottom: 6px;
+}
+.screen-reader-text {
+    display: none;
+}
+#searchsubmit {
+    background: #921E31;
+    padding: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-weight: normal;
+}
+#searchsubmit:hover {
+    color:#ccc;
+}
