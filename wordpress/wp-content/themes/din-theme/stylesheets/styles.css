@@ -17,6 +17,7 @@
 @import "elements/shop.css";
 @import "elements/posts.css";
 @import "elements/socials.css";
+@import "elements/socials-responsive.css";
 @import "elements/infinite-scroll.css";
 @import "pages/home.css";
 @import "pages/home-responsive.css";

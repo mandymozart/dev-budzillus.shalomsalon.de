@@ -1,17 +1,42 @@
+/* 6. Socials */
+#socials {
+    z-index: 1020;
+    position: fixed;
+    top: 20px;
+    right: 40px;
+}
+
+#socials ul {
+    display: block;
+}
+#socials ul li {
+    margin-left: 0px;
+    width: 36px;
+    height: 36px;
+}
+
 .social {
     background: url(/wp-content/themes/din-theme/images/socials-sprites.png);
     width: 72px;
     height: 72px;
     display: block;
     margin-left: 20px;
+    transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -mos-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -mos-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
 }
-.social.social-facebook { background-position: -72px -72px;}
-.social.social-facebook:hover { background-position: -72px 0;}
+.social.social-soundcloud { background-position: -72px -72px;}
+.social.social-soundcloud:hover { background-position: -72px 0;}
 .social.social-tumblr {background-position: -144px -72px;}
 .social.social-tumblr:hover {background-position: -144px 0;}
-.social.social-youtube {background-position: -216px -72px;}
-.social.social-youtube:hover {background-position: -216px 0;}
-.social.social-instagram {background-position: -287px -72px;}
-.social.social-instagram:hover {background-position: -287px 0;}
-.social.social-soundcloud {background-position: 0 -72px;}
-.social.social-soundcloud:hover {background-position: 0 0;}
+.social.social-instagram {background-position: -216px -72px;}
+.social.social-instagram:hover {background-position: -216px 0;}
+.social.social-youtube {background-position: -287px -72px;}
+.social.social-youtube:hover {background-position: -287px 0;}
+.social.social-facebook {background-position: 0 -72px;}
+.social.social-facebook:hover {background-position: 0 0;}

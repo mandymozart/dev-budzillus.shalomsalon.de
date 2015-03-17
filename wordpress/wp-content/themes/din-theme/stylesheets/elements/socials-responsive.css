@@ -1,0 +1,11 @@
+/* 4.r. Socials Responsive */
+/* Mobile */
+@media (min-width : 320px) and (max-width : 568px) {
+    #socials ul {
+        display: inline-flex;
+    }
+}
+/* Tablet */
+@media (max-width : 991px) {
+
+}

@@ -76,6 +76,7 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
 .navbar .navbar-ui {
     height: 93px;
 }
@@ -129,21 +130,6 @@
 }
 .nav-previous {
     float: left;
-}
-
-
-/* 6. Socials */
-#socials {
-    z-index: 1020;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-}
-#socials ul {
-    display: inline-flex;
-}
-#socials ul li {
-    margin-left: 0px;
 }
 
 /* 7. Categories under Single Article */
