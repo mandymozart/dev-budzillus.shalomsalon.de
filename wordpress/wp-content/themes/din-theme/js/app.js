@@ -105,6 +105,13 @@
         */
         deviceW = $(window).width()
 
+        if(deviceW > 768 && $('body').hasClass('home')){ // limit to
+            $('#newsletter').toggleClass('in-intro')
+        }
+        else {
+            $('#newsletter').removeClass('in-intro')
+        }
+
         $('#latestSection').waypoint(function(){
             if(deviceW > 768 && $('body').hasClass('home')){ // limit to
                 $('#newsletter').toggleClass('in-intro')

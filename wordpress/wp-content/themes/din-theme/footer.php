@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">
                     <!-- Newsletter -->
-                    <div id="newsletter" class="in-intro">
+                    <div id="newsletter">
                         <!-- Begin MailChimp Signup Form -->
                         <div id="mc_embed_signup">
                             <form action="//budzillus.us10.list-manage.com/subscribe/post?u=71a04315d4cbef1c887c8b94f&amp;id=8a05e59c85" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
