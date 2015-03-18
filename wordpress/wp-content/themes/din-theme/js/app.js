@@ -45,7 +45,14 @@
 
                 var gigs = data.resultsPage.results.event;
 
-                $.each(gigs, function(index, gig) {
+                // count gigs
+                var gigs_length=0;
+                $.each(gigs, function(i, elem) {
+                    gigs_length++;
+                });
+
+                if(gigs_length > 0){
+                    $.each(gigs, function(index, gig) {
 
                     if(gig.series){
                         var place = gig.series.displayName;
@@ -62,9 +69,13 @@
                         var wit = "";
                     }
 
-                    $li = $("<span class='date'>"+date+"</span> "+gig.location.city.replace(/, Germany/g, "")+" <a href='"+gig.uri+"' target='_blank'>"+place+wit+"</a><br />").appendTo("#songkickGigs");
+                    $li = $("<span class='date'>"+date+"</span> "+gig.location.city.replace(/, Germany/g, "")+" <br class='visible-xs'/><a href='"+gig.uri+"' target='_blank'>"+place+wit+"</a><br /><br />").appendTo("#songkickGigs");
 
                 });
+                } else {
+                    // Removes #tourSection completly from DOM if no gigs available
+                    $('#tourSection').remove();
+                }
             });
 
 
